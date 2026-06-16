@@ -6,5 +6,4 @@ const configureRoutes = (app) => {
     res.status(200).send('GGLab API Documents');
   });
 };
-
 module.exports = configureRoutes;  
