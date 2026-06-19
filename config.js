@@ -12,4 +12,4 @@ module.exports = {
   NODE_ENV: process.env.NODE_ENV,
   INITIAL_CHIPS_AMOUNT: 100000,
   }
- 
+  
