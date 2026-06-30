@@ -133,41 +133,60 @@ Before starting, install the following:
 
 ---
 
-# ▶️ Run Development Servers
+# ▶️ Run the Application
 
-## Start Backend
+## 1. Check Your Node.js Version
+
+Verify your installed Node.js version:
 
 ```bash
-cd server
-npm run dev
+node -v
+```
+
+- ✅ If your Node.js version is between **v20.x** and **v25.x**, continue to the next step.
+- ⬆️ If it is outside this range, update Node.js before proceeding.
+
+---
+
+## 2. Install Dependencies
+
+Install all required packages:
+
+```bash
+npm install
+```
+
+or the short version:
+
+```bash
+npm i
 ```
 
 ---
 
-## Start Frontend
+## 3. Start the Application
+
+Run the project:
 
 ```bash
-cd client
-npm run dev
+npm start
 ```
 
 ---
 
-# 🌐 Access Application
+# 🌐 Access the Application
 
 Frontend:
 
-```bash
+```text
 http://localhost:3000
 ```
 
 Backend API:
 
-```bash
+```text
 http://localhost:7777
 ```
-
----
 
 # 🔗 Wallet Integration
 
